@@ -1,14 +1,14 @@
 name: Deploy to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
-  # Using a different branch name? Replace `main` with your branch’s name
   push:
-    branches: [ main ]
+    branches:
+      - main
+
   # Allows you to run this workflow manually from the Actions tab on GitHub.
   workflow_dispatch:
   
-# Allow this job to clone the repo and create a page deployment
+# Define permissions required for this workflow
 permissions:
   contents: read
   pages: write
@@ -27,10 +27,11 @@ jobs:
           node-version: 18
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci 
 
       - name: Build Astro Project
         run: npm run build
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -40,4 +41,7 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: JamesIves/github-pages-deploy-action@4 # Updated to a more specific GitHub Pages deployment action
+        with:
+          branch: main
+          folder: ./public
