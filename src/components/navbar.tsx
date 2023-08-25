@@ -64,7 +64,7 @@ function ProfileMenu() {
           <Avatar
             variant="circular"
             size="sm"
-            alt="Tania Andrew"
+            alt="Brooklyn Alice"
             className="border border-gray-300 p-0.5"
             src="https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=986&q=80"
           />
@@ -113,15 +113,15 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/login"
+    href: "/astro-launch-ui-pro/login"
   },
   {
     title: "Reset",
-    href: "/reset"
+    href: "/astro-launch-ui-pro/reset"
   },
   {
     title: "Sign Up",
-    href: "/signup"
+    href: "/astro-launch-ui-pro/signup"
   }
 ];
 
@@ -185,51 +185,51 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/about"
+    href: "/astro-launch-ui-pro/about"
   },
   {
     title: "Landing Page",
-    href: "/landing"
+    href: "/astro-launch-ui-pro/landing"
   },
   {
     title: "Billing Page",
-    href: "/billing"
+    href: "/astro-launch-ui-pro/billing"
   },
   {
     title: "Blog Page",
-    href: "/blog"
+    href: "/astro-launch-ui-pro/blog"
   },
   {
     title: "Our Team",
-    href: "/teams"
+    href: "/astro-launch-ui-pro/teams"
   },
   {
     title: "Blog Post",
-    href: "/blog-post"
+    href: "/astro-launch-ui-pro/blog-post"
   },
   {
     title: "Marketing Page",
-    href: "/marketing"
+    href: "/astro-launch-ui-pro/marketing"
   },
   {
     title: "Coming Soon",
-    href: "/coming-soon"
+    href: "/astro-launch-ui-pro/coming-soon"
   },
   {
     title: "Dashboard",
-    href: "/dashboard"
+    href: "/astro-launch-ui-pro/dashboard"
   },
   {
     title: "Terms",
-    href: "/terms"
+    href: "/astro-launch-ui-pro/terms"
   },
   {
     title: "404",
-    href: "/404"
+    href: "/astro-launch-ui-pro/404"
   },
   {
     title: "500",
-    href: "/500"
+    href: "/astro-launch-ui-pro/500"
   }
 ];
  
@@ -382,12 +382,12 @@ export default function ComplexNavbar() {
             <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="https://github.com/creativetimofficial/ct-astrolaunch-ui" target="_blank">
+        <a href="https://github.com/creativetimofficial/ct-astrolaunch-ui-pro" target="_blank">
           <Button size="sm" color="dark" variant="text">
             <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="/#examplePages">
+        <a href="astro-launch-ui-pro/#examplePages">
           <Button color="dark">Get started</Button>
         </a>
       </div>
