@@ -10,13 +10,6 @@ const isProd = process.env.NODE_ENV === "production";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react(), tailwind()],
-  site: "https://creativetimofficial.github.io",
-  base: "",
-  vite: isProd
-    ? {
-        ssr: {
-          noExternal: ["@material-tailwind/react"],
-        },
-      }
-    : {},
+  site: "https://demos.creative-tim.com",
+  base: "/astro-launch-ui-pro",
 });
