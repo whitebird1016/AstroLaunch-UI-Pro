@@ -59,13 +59,13 @@ function BlogPostCard({
 
 const posts = [
   {
-    img: "/landing-page.jpg",
+    img: "landing-page.jpg",
     title: "Landing Page",
     desc: "Designed to introduce the website's purpose and encourage the user to take an action.",
     url: "/landing",
   },
   {
-    img: "/dashboard-page.jpg",
+    img: "dashboard-page.jpg",
     title: "Dashboard Page",
     desc: "It's designed to give the user all the information they need to make a purchase decision",
     url: "/dashboard",
