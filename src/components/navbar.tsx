@@ -64,7 +64,7 @@ function ProfileMenu() {
           <Avatar
             variant="circular"
             size="sm"
-            alt="Brooklyn Alice"
+            alt="Brooklyn West"
             className="border border-gray-300 p-0.5"
             src="https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=986&q=80"
           />
@@ -360,13 +360,29 @@ export default function ComplexNavbar() {
       <div className="relative mx-auto flex items-center text-blue-gray-900">
         <Typography
           as="a"
-          href="/"
+          href="/astro-launch-ui-pro/"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          AstroLaunch UI
+          AstroLaunch UI Pro
         </Typography>
         <div className="hidden lg:flex ml-auto">
           <NavList />
+          <a href="https://discord.com/invite/WCvQWMwT" target="_blank">
+            <Button size="sm" color="dark" variant="text">
+              <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
+            </Button>
+          </a>
+          <a href="https://github.com/creativetimofficial/ct-astro-launch-ui-pro" target="_blank">
+            <Button size="sm" color="dark" variant="text">
+              <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
+            </Button>
+          </a>
+          <a href="/astro-launch-ui-pro#examplePages">
+            <Button className="mr-4" size="sm" variant="outlined" color="dark">Get started</Button>
+          </a>
+          <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
+            <Button size="sm" color="dark">Free download</Button>
+          </a>
         </div>
         <IconButton
           size="sm"
@@ -377,22 +393,25 @@ export default function ComplexNavbar() {
         >
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
-        <a href="https://discord.gg/WCvQWMwT" target="_blank">
+      </div>
+      <Collapse open={isNavOpen} className="overflow-scroll">
+        <NavList />
+        <a href="https://discord.com/invite/WCvQWMwT" target="_blank">
           <Button size="sm" color="dark" variant="text">
             <i className="fab fa-discord text-lg leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="https://github.com/creativetimofficial/ct-astrolaunch-ui-pro" target="_blank">
+        <a href="https://github.com/creativetimofficial/ct-astro-launch-ui-pro" target="_blank">
           <Button size="sm" color="dark" variant="text">
             <i className="fab fa-github text-xl leading-none" aria-hidden="true"></i>
           </Button>
         </a>
-        <a href="astro-launch-ui-pro/#examplePages">
-          <Button color="dark">Get started</Button>
+        <a href="/astro-launch-ui-pro#examplePages">
+          <Button className="mr-4" size="sm" variant="outlined" color="dark">Get started</Button>
         </a>
-      </div>
-      <Collapse open={isNavOpen} className="overflow-scroll">
-        <NavList />
+        <a href="https://github.com/creativetimofficial/astro-launch-ui" target="_blank">
+          <Button size="sm" color="dark">Free download</Button>
+        </a>
       </Collapse>
     </Navbar>
   );

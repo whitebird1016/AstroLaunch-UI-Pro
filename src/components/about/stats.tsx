@@ -3,10 +3,17 @@ import { Typography, Card } from "@material-tailwind/react";
 function StatsCard({ count, title }) {
   return (
     <Card color="transparent" shadow={false}>
-      <Typography variant="h1" className="mb-4 text-6xl text-dark">
+      <Typography
+        variant="gradient"
+        className="text-4xl font-bold"
+        color="blue-gray"
+      >
         {count}
       </Typography>
-      <Typography variant="h5" color="blue-gray">
+      <Typography
+        variant="paragraph"
+        className="my-2 font-normal !text-gray-500 lg:w-[16rem]"
+      >
         {title}
       </Typography>
     </Card>
@@ -15,48 +22,49 @@ function StatsCard({ count, title }) {
 
 const stats = [
   {
-    count: "1200+",
-    title: "Products done",
+    count: "323",
+    title: "Of “high-performing” level are led by a certified project manager",
   },
   {
-    count: "200%",
-    title: "ROI",
+    count: "500+",
+    title: "That meets quality standards required by our users",
   },
   {
-    count: "2M+",
-    title: "Downloads",
+    count: "24/7",
+    title: "Actively engage team members that finishes on time",
   },
   {
-    count: "4.7K",
-    title: "5-star reviews",
+    count: "73",
+    title: "Team members that finishes on time every project",
   },
 ];
 
-export function StatsSectionTwo() {
+export function StatsSectionFour() {
   return (
-    <section className="px-8 py-8 lg:py-40">
-      <div className="container mx-auto grid items-center gap-y-8 gap-x-16 lg:grid-cols-2">
-        <img
-          src="https://images.unsplash.com/photo-1416339684178-3a239570f315?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGRlc2lnbiUyMHdvcmtzcGFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
-          alt="background image"
-          className="h-full w-full rounded-xl object-cover object-center"
-        />
-        <div className="p-2 lg:p-8">
-          <Typography color="dark" className="mb-2 font-bold text-lg">
-            Our Activity
-          </Typography>
-          <Typography variant="h1" color="blue-gray" className="mb-20">
-            Your life will be much easier
-          </Typography>
-          <div className="grid gap-y-16 gap-x-8 md:grid-cols-2">
-            {stats.map((props, key) => (
-              <StatsCard key={key} {...props} />
-            ))}
-          </div>
+    <section className="container mx-auto grid place-items-center px-8 md:grid-cols-1 lg:grid-cols-2">
+      <img
+        src="https://demos.creative-tim.com/material-kit-pro/assets/img/examples/iphone.png"
+        alt="bg"
+        className="h-full w-full max-w-md object-cover"
+      />
+      <div>
+        <Typography variant="h2" color="blue-gray">
+          Free Material Design Resources
+        </Typography>
+        <Typography
+          variant="lead"
+          className="mb-16 mt-2 w-[30rem] !text-gray-500"
+        >
+          We’re constantly trying to express ourselves and actualize our dreams.
+        </Typography>
+        <div className="grid grid-cols-2 gap-20 gap-y-8">
+          {stats.map((props, key) => (
+            <StatsCard key={key} {...props} />
+          ))}
         </div>
       </div>
     </section>
   );
 }
 
-export default StatsSectionTwo;
+export default StatsSectionFour;

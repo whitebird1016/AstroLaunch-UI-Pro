@@ -11,31 +11,33 @@ interface CategoriesCardPropsType {
   category: string;
 }
 
-function CategoriesCard({ img, category }: CategoriesCardPropsType) {
+function CategoriesCard({ img, category, url }: CategoriesCardPropsType) {
   return (
-    <Card
-      shadow={false}
-      className="relative grid h-[25rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
-    >
-      <CardHeader
-        floated={false}
+    <a href={url}>
+      <Card
         shadow={false}
-        color="transparent"
-        className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
-        style={{ backgroundImage: `url(${img})` }}
+        className="relative grid h-[25rem] w-full max-w-[28rem] items-end justify-center overflow-hidden text-center"
       >
-        <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
-      </CardHeader>
-      <CardBody className="relative py-14 px-6 md:px-12">
-        <Typography
-          variant="h4"
-          color="white"
-          className="mb-6 font-medium leading-[1.5]"
+        <CardHeader
+          floated={false}
+          shadow={false}
+          color="transparent"
+          className="absolute inset-0 m-0 h-full w-full rounded-none bg-cover bg-center"
+          style={{ backgroundImage: `url(${img})` }}
         >
-          {category}
-        </Typography>
-      </CardBody>
-    </Card>
+          <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/80 via-black/50" />
+        </CardHeader>
+        <CardBody className="relative py-14 px-6 md:px-12">
+          <Typography
+            variant="h4"
+            color="white"
+            className="mb-6 font-medium leading-[1.5]"
+          >
+            {category}
+          </Typography>
+        </CardBody>
+      </Card>
+    </a>
   );
 }
 
@@ -43,18 +45,22 @@ const categories = [
   {
     img: "https://images.unsplash.com/photo-1491933382434-500287f9b54b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=80",
     category: "Electronics",
+    url: "#"
   },
   {
     img: "https://images.unsplash.com/photo-1542845476-351174c0a0f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     category: "New Arrivals",
+    url: "#"
   },
   {
     img: "https://images.unsplash.com/photo-1554116154-e733de92fe4b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     category: "Accessories",
+    url: "#"
   },
   {
     img: "https://images.unsplash.com/photo-1534802046520-4f27db7f3ae5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80",
     category: "Sale",
+    url: "#"
   },
 ];
 

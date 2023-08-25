@@ -151,7 +151,7 @@ export function BlogSectionOne() {
   return (
     <section className="py-20 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography color="blue" className="mb-2 font-bold uppercase">
+        <Typography color="blue" className="mb-2 font-bold">
           Latest Blog Posts
         </Typography>
         <Typography variant="h1" color="blue-gray" className="mb-4">

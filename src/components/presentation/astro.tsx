@@ -24,7 +24,7 @@ export function AstroSection() {
             <Typography variant="lead" color="white">
               Astro is an all-in-one web framework for building fast, content-focused websites. The framework is based in Astro Islands architecture, which represents a leading paradigm shift for frontend web architecture.
             </Typography>
-            <a href="https://github.com/creativetimofficial/astro-ecommerce">
+            <a href="https://github.com/creativetimofficial/astro-launch-ui">
               <Button color="white" size="sm" variant="outlined" className="flex items-center mt-12">
                 Get Started
               </Button>

@@ -158,7 +158,7 @@ export default function Example() {
       <Alert open={openAlert} className="mt-auto bg-dark" onClose={() => setOpenAlert(false)}>
         <CubeTransparentIcon className="mb-4 h-12 w-12" />
         <Typography variant="h6" className="mb-1">
-          AstroLaunch UI
+          AstroLaunch UI Pro
         </Typography>
         <Typography variant="small" className="font-normal opacity-80">
           Upgrade to AstroLaunch UI PRO and get even more components, plugins, advanced features
@@ -174,7 +174,7 @@ export default function Example() {
           >
             Dismiss
           </Typography>
-          <Typography as="a" href="#" variant="small" className="font-medium">
+          <Typography as="a" href="https://www.creative-tim.com/product/astro-launch-ui-pro" variant="small" className="font-medium">
             Upgrade Now
           </Typography>
         </div>

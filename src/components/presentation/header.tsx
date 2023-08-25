@@ -45,7 +45,7 @@ export function HeroPresentation() {
             <div className="mt-12 flex flex-wrap justify-center gap-3 lg:justify-start">
               <a href="#pricing">
                 <Button color="dark" className="flex items-center">
-                  Get Started
+                  View Pricing
                 </Button>
               </a>
             </div>

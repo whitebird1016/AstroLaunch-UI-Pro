@@ -45,7 +45,7 @@ export function FooterOne() {
           </div>
           <div className="mt-16 flex flex-wrap items-center justify-center gap-y-4 gap-x-8 border-t border-blue-gray-50 py-6 md:justify-between">
             <Typography color="gray" className="text-center font-normal">
-              &copy; {currentYear} Material Tailwind, All rights reserved.
+              &copy; {currentYear} AstroLaunch UI, All rights reserved.
             </Typography>
 
             <ul className="flex items-center">

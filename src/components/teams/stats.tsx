@@ -60,7 +60,7 @@ export function StatsSectionOne() {
               Building the future
             </Typography>
             <Typography variant="lead" className="w-full text-gray-500">
-              Learn more about Material Tailwind.
+              Learn more about AstroLaunch UI.
             </Typography>
           </div>
         </div>

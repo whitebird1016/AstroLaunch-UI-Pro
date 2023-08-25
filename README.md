@@ -1,17 +1,17 @@
-# Welcome to [Astro LaunchUI Pro](https://www.creative-tim.com/astro)
+# Welcome to [AstroLaunch UI Pro](https://www.creative-tim.com/astro/launch-ui-pro)
 
-![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/astro-ecommerce.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-ecommerce/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/astro-ecommerce.svg?maxAge=2592000)](https://github.com/creativetimofficial/astro-ecommerce/issues?q=is%3Aissue+is%3Aclosed)
+![version](https://img.shields.io/badge/version-1.0.0-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-astro-launch-ui-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-astro-launch-ui-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-astro-launch-ui-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-astro-launch-ui-pro/issues?q=is%3Aissue+is%3Aclosed)
 
-![basics](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/astro-ecommerce/astro-ecommerce-1.jpg)
+![basics](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/astro/astrolaunch-ui.jpg)
 
 ## Description
 
-Introducing **Astro LaunchUI Pro**, the ultimate starter template for your e-commerce web project. Built on Astro's next-gen island architecture, Astro LaunchUI Pro offers a sleek and modern design with a wide range of components and features to help you create a stunning online store.
+Introducing **AstroLaunch UI Pro**, the ultimate starter template for your e-commerce web project. Built on Astro's next-gen island architecture, AstroLaunch UI Pro offers a sleek and modern design with a wide range of components and features to help you create a stunning online store.
 
 **Main Features**
-Build your startup website quickly and efficiently with:
+Build your e-commerce website quickly and efficiently with:
 - 70+ fully coded elements
-- 3 fully coded example pages
+- 15 fully coded example pages
 - 30+ blocks
 - Responsive design
 
@@ -22,7 +22,7 @@ We created a set of pre-built pages to help you get inspired or show something t
 - [Billing Page](https://demos.creative-tim.com/astro-launch-ui/billing/): Includes a summary of the items in the cart and a form for billing and shipping information.
 - more+
 
-Astro LaunchUI Pro has everything you need to create the e-commerce website of your dreams.
+AstroLaunch UI Pro has everything you need to create the website of your dreams.
 
 
 ## 🚀 Project Structure
@@ -31,30 +31,46 @@ Inside of your Astro project, you'll see the following folders and files:
 
 ```
 /
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   ├── cart/
-│   │   ├── checkout/
-│   │   ├── incentives/
-│   │   ├── order/
-│   │   ├── products/
-│   │   ├── promo/
-│   │   ├── reviews/
-│   │   ├── store/
-│   │   ├── dashboardContext.tsx
-│   │   ├── footer.tsx
-│   │   └── navbar.tsx
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       ├── index.astro
-│       ├── landing.astro
-│       ├── product.astro
-│       └── shopping-cart.astro
-├── package.json
+├── CHANGELOG.MD
 ├── README.md
+├── assets
+│   ├── css
+│   │   ├── input.css
+│   │   └── material-tailwind.css
+│   ├── js
+│   │   └── astro-launch-ui.min.js
+│   └── scss
+│       └── loading-dot.css
+├── astro.config.mjs
+├── create-free-demo.js
+├── hooks/
+├── package.json
+├── public/
+├── src
+│   ├── components/
+│   ├── env.d.ts
+│   ├── example.tsx
+│   ├── header.tsx
+│   ├── layouts
+│   │   └── Layout.astro
+│   ├── pages/
+│   │   ├── 404.astro
+│   │   ├── 500.astro
+│   │   ├── about.astro
+│   │   ├── billing.astro
+│   │   ├── blog-post.astro
+│   │   ├── blog.astro
+│   │   ├── coming-soon.astro
+│   │   ├── dashboard.astro
+│   │   ├── index.astro
+│   │   ├── landing.astro
+│   │   ├── login.astro
+│   │   ├── marketing.astro
+│   │   ├── reset.astro
+│   │   ├── signup.astro
+│   │   ├── teams.astro
+│   │   └── terms.astro
+├── tailwind.config.js
 └── tsconfig.json
 ```
 
@@ -91,4 +107,4 @@ Instagram: <https://instagram.com/creativetimofficial>
 
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui) or jump into our [Discord server](https://discord.com/invite/TGZqBvZB).
+Feel free to check [our documentation](https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui) or jump into our [Discord server](https://discord.com/invite/WCvQWMwT).
