@@ -79,11 +79,6 @@ export function FigmaPresentation() {
                   ))}
                 </div>
               </div>
-              <a href="https://www.figma.com/community/file/1201892214265868825">
-                <Button color="dark" className="flex items-center">
-                  Get Figma
-                </Button>
-              </a>
             </div>
             <img src="https://www.creative-tim.com/astro/assets/img/components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
           </div>

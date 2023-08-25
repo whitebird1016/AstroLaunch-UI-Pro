@@ -252,11 +252,11 @@ export default function Example() {
         <div className="flex items-center justify-between text-blue-gray-900">
           <Typography
             as="a"
-            href="#"
+            href="/astro-launch-ui-pro/"
             variant="h6"
             className="mr-4 cursor-pointer py-1.5 lg:ml-2"
           >
-            AstroLaunch UI
+            AstroLaunch UI Pro
           </Typography>
           <div className="hidden lg:block">
             <NavList />
@@ -289,7 +289,7 @@ export default function Example() {
         <Collapse open={openNav}>
           <NavList />
           <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-            <a href="./login">
+            <a href="./astro-launch-ui-pro/login">
               <Button variant="outlined" size="sm" color="dark" fullWidth>
                 Sign In
               </Button>

@@ -113,15 +113,15 @@ function ProfileMenu() {
 const accountItems = [
   {
     title: "Login",
-    href: "/login"
+    href: "/astro-launch-ui-pro/login"
   },
   {
     title: "Reset",
-    href: "/reset"
+    href: "/astro-launch-ui-pro/reset"
   },
   {
     title: "Sign Up",
-    href: "/signup"
+    href: "/astro-launch-ui-pro/signup"
   }
 ];
 
@@ -185,51 +185,51 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/about"
+    href: "/astro-launch-ui-pro/about"
   },
   {
     title: "Landing Page",
-    href: "/landing"
+    href: "/astro-launch-ui-pro/landing"
   },
   {
     title: "Billing Page",
-    href: "/billing"
+    href: "/astro-launch-ui-pro/billing"
   },
   {
     title: "Blog Page",
-    href: "/blog"
+    href: "/astro-launch-ui-pro/blog"
   },
   {
     title: "Our Team",
-    href: "/teams"
+    href: "/astro-launch-ui-pro/teams"
   },
   {
     title: "Blog Post",
-    href: "/blog-post"
+    href: "/astro-launch-ui-pro/blog-post"
   },
   {
     title: "Marketing Page",
-    href: "/marketing"
+    href: "/astro-launch-ui-pro/marketing"
   },
   {
     title: "Coming Soon",
-    href: "/coming-soon"
+    href: "/astro-launch-ui-pro/coming-soon"
   },
   {
     title: "Dashboard",
-    href: "/dashboard"
+    href: "/astro-launch-ui-pro/dashboard"
   },
   {
     title: "Terms",
-    href: "/terms"
+    href: "/astro-launch-ui-pro/terms"
   },
   {
     title: "404",
-    href: "/404"
+    href: "/astro-launch-ui-pro/404"
   },
   {
     title: "500",
-    href: "/500"
+    href: "/astro-launch-ui-pro/500"
   }
 ];
  
@@ -307,7 +307,7 @@ function NavList() {
         <Typography
           key={label}
           as="a"
-          href="#"
+          href="https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui"
           variant="small"
           color="blue-gray"
           className="font-normal"
@@ -353,17 +353,17 @@ export default function ComplexNavbar() {
  
   return (
     <Navbar
-      className={`sticky inset-0 z-10 mx-auto max-w-screen-2xl p-2 lg:pl-6 mt-4 transition-shadow ${
+      className={`sticky inset-0 z-10 mx-auto max-w-screen-3xl p-2 lg:pl-6 mt-4 transition-shadow ${
         shouldShowBorder ? "border-b border-gray-300 shadow-none" : ""
       }`}
     >
       <div className="relative mx-auto flex items-center text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
+          href="/astro-launch-ui-pro/"
           className="mr-4 ml-2 cursor-pointer py-1.5 font-medium"
         >
-          AstroLaunch UI
+          AstroLaunch UI Pro
         </Typography>
         <div className="absolute top-2/4 left-2/4 hidden -translate-x-2/4 -translate-y-2/4 lg:flex">
           <NavList />
