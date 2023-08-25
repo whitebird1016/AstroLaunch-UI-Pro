@@ -39,15 +39,15 @@ const colors = {
 const accountItems = [
   {
     title: "Login",
-    href: "/login"
+    href: "/astro-launch-ui-pro/login"
   },
   {
     title: "Reset",
-    href: "/reset"
+    href: "/astro-launch-ui-pro/reset"
   },
   {
     title: "Sign Up",
-    href: "/signup"
+    href: "/astro-launch-ui-pro/signup"
   }
 ];
 
@@ -111,51 +111,51 @@ function AccountListMenu() {
 const navListMenuItems = [
   {
     title: "About Us",
-    href: "/about"
+    href: "/astro-launch-ui-pro/about"
   },
   {
     title: "Landing Page",
-    href: "/landing"
+    href: "/astro-launch-ui-pro/landing"
   },
   {
     title: "Billing Page",
-    href: "/billing"
+    href: "/astro-launch-ui-pro/billing"
   },
   {
     title: "Blog Page",
-    href: "/blog"
+    href: "/astro-launch-ui-pro/blog"
   },
   {
     title: "Our Team",
-    href: "/teams"
+    href: "/astro-launch-ui-pro/teams"
   },
   {
     title: "Blog Post",
-    href: "/blog-post"
+    href: "/astro-launch-ui-pro/blog-post"
   },
   {
     title: "Marketing Page",
-    href: "/marketing"
+    href: "/astro-launch-ui-pro/marketing"
   },
   {
     title: "Coming Soon",
-    href: "/coming-soon"
+    href: "/astro-launch-ui-pro/coming-soon"
   },
   {
     title: "Dashboard",
-    href: "/dashboard"
+    href: "/astro-launch-ui-pro/dashboard"
   },
   {
     title: "Terms",
-    href: "/terms"
+    href: "/astro-launch-ui-pro/terms"
   },
   {
     title: "404",
-    href: "/404"
+    href: "/astro-launch-ui-pro/404"
   },
   {
     title: "500",
-    href: "/500"
+    href: "/astro-launch-ui-pro/500"
   }
 ];
  
@@ -222,7 +222,7 @@ function NavList() {
       <AccountListMenu />
       <Typography
         as="a"
-        href="#"
+        href="https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui"
         variant="small"
         color="blue-gray"
         className="font-normal"
@@ -262,12 +262,12 @@ export default function Example() {
             <NavList />
           </div>
           <div className="hidden gap-2 lg:flex">
-            <a href="./login">
+            <a href="./astro-launch-ui-pro/login">
               <Button variant="text" size="sm" color="blue-gray">
                 Sign In
               </Button>
             </a>
-            <a href="./signup">
+            <a href="./astro-launch-ui-pro/signup">
               <Button size="sm" color="dark">
                 Sign Up
               </Button>
@@ -294,7 +294,7 @@ export default function Example() {
                 Sign In
               </Button>
             </a>
-            <a href="./signup">
+            <a href="./astro-launch-ui-pro/signup">
               <Button size="sm" fullWidth color="dark">
                 Sign Up
               </Button>

@@ -38,7 +38,7 @@ export function CodePresentation() {
               </Button>
             </a>
           </div>
-            <img src="../code.png" alt="iphone" className="max-w-2xl rounded-3xl hidden md:flex mx-auto" />
+            <img src="code.png" alt="iphone" className="max-w-2xl rounded-3xl hidden md:flex mx-auto" />
         </div>
       </div>
     </ThemeProvider>
