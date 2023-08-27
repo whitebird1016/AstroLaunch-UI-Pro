@@ -1,7 +1,7 @@
 {
   "name": "astro-launch-ui-pro",
   "version": "1.0.0",
-  "description": "The ultimate starter template for your e-commerce web project",
+  "description": "The ultimate starter template for your startup web project",
   "main": "assets/js/astro-launch-ui.min.js",
   "scripts": {
     "dev": "astro dev",
@@ -18,7 +18,7 @@
     "Store Theme",
     "Online Store",
     "Ecommerce template",
-    "Astro e-commerce",
+    "Astro startup",
     "Astro ecommerce",
     "Astro store",
     "Store theme",
@@ -57,10 +57,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/astro-ecommerce.git"
+    "url": "git+https://github.com/creativetimofficial/ct-astro-launch-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/creativetimofficial/astro-ecommerce/issues"
+    "url": "https://github.com/creativetimofficial/ct-astro-launch-ui/issues"
   },
-  "homepage": "https://www.creative-tim.com/astro"
+  "homepage": "https://www.creative-tim.com/astro/astro-launch-ui-pro"
 }
