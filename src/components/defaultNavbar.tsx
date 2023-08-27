@@ -262,12 +262,12 @@ export default function Example() {
             <NavList />
           </div>
           <div className="hidden gap-2 lg:flex">
-            <a href="./login">
+            <a href="../login">
               <Button variant="text" size="sm" color="blue-gray">
                 Sign In
               </Button>
             </a>
-            <a href="./signup">
+            <a href="../signup">
               <Button size="sm" color="dark">
                 Sign Up
               </Button>
@@ -289,12 +289,12 @@ export default function Example() {
         <Collapse open={openNav}>
           <NavList />
           <div className="flex w-full flex-nowrap items-center gap-2 lg:hidden">
-            <a href="./login">
+            <a href="../login">
               <Button variant="outlined" size="sm" color="dark" fullWidth>
                 Sign In
               </Button>
             </a>
-            <a href="./signup">
+            <a href="../signup">
               <Button size="sm" fullWidth color="dark">
                 Sign Up
               </Button>

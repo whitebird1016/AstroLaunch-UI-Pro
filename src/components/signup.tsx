@@ -53,7 +53,7 @@ export function SignUp() {
               fullWidth
             >
               <img
-                src="logos/logo-facebook.png"
+                src="../logos/logo-facebook.png"
                 alt="facebook"
                 className="-mt-0.5 h-7 w-7"
               />
@@ -67,7 +67,7 @@ export function SignUp() {
               fullWidth
             >
               <img
-                src="logos/logo-apple.png"
+                src="../logos/logo-apple.png"
                 alt="apple"
                 className="-mt-1 h-7 w-7"
               />
