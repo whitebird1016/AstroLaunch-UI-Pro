@@ -61,7 +61,7 @@ const testimonials = [
       "Your products, all the kits that I have downloaded from your site and worked with are sooo cool! I love the color mixtures, cards... everything. Keep up the great work!",
     client: "Lucian Eurel",
     title: "CEO Discord",
-    img: "/avatars/avatar1.jpg",
+    img: "/astro-launch-ui-pro/avatars/avatar1.jpg",
   },
   {
     rating: 5,
@@ -69,7 +69,7 @@ const testimonials = [
       "Don't be scared of the truth because we need to restart the human foundation in truth. That's why I love you like Kanye loves Kanye I love Rick Owens• bed design but the back is not so attractive. ",
     client: "Linde Michel",
     title: "CFO Slack",
-    img: "/avatars/avatar2.jpg",
+    img: "/astro-launch-ui-pro/avatars/avatar2.jpg",
   },
   {
     rating: 5,
@@ -77,7 +77,7 @@ const testimonials = [
       "Your products, all the kits that I have downloaded from your site and worked with are sooo cool! I love the color mixtures, cards... everything. Keep up the great work!",
     client: "Misha Stam",
     title: "COO Dribbble",
-    img: "/avatars/avatar4.jpg",
+    img: "/astro-launch-ui-pro/avatars/avatar4.jpg",
   },
 ];
 
