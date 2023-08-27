@@ -49,7 +49,7 @@ export function ContentSectionOne() {
             </Button>
           </div>
           <img
-            src="/content1.jpg"
+            src="/astro-launch-ui-pro/content1.jpg"
             alt="team work"
             className=" h-full min-h-[50vh] w-full rounded-xl object-cover object-center md:min-h-[75vh]"
           />

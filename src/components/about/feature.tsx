@@ -25,7 +25,7 @@ export function FeatureSectionThree() {
         <div className="mb-20 grid lg:grid-cols-2">
           <div className="lg:pr-10">
             <img
-              src="/features3.jpg"
+              src="/astro-launch-ui-pro/features3.jpg"
               alt="background image"
               className="h-full min-h-[20rem] w-full rounded-xl object-cover"
             />
@@ -92,7 +92,7 @@ export function FeatureSectionThree() {
           </div>
           <div className="row-start-1 lg:row-auto lg:pl-10">
             <img
-              src="/features4.jpg"
+              src="/astro-launch-ui-pro/features4.jpg"
               alt="background image"
               className="h-full min-h-[20rem] w-full rounded-xl object-cover"
             />

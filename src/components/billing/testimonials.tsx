@@ -21,7 +21,7 @@ export function TestimonialSectionTwo() {
             className="h-[32rem] w-[28rem] shrink-0"
           >
             <img
-              src="/avatars/avatar1.jpg"
+              src="../avatars/avatar1.jpg"
               alt="testimonial image"
               className="h-full w-full object-cover"
             />
@@ -45,7 +45,7 @@ export function TestimonialSectionTwo() {
             <div className="flex items-center gap-4">
               <Avatar
                 variant="circular"
-                src="/logos/logo-apple.png"
+                src="/astro-launch-ui-pro/logos/logo-apple.png"
                 alt="spotify"
                 size="lg"
               />
