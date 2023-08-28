@@ -39,7 +39,7 @@ export function SignUp() {
               fullWidth
             >
               <img
-                src="logos/logo-google.png"
+                src="../logos/logo-google.png"
                 alt="google"
                 className="h-6 w-6"
               />{" "}
