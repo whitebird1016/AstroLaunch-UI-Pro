@@ -307,10 +307,11 @@ function NavList() {
         <Typography
           key={label}
           as="a"
-          href="https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui"
+          href="https://www.creative-tim.com/learning-lab/astro/quick-start/astro-launch-ui/"
           variant="small"
           color="blue-gray"
           className="font-normal"
+          target="_blank"
         >
           <MenuItem className="flex items-center gap-2 lg:rounded-full">
             {React.createElement(icon, { className: "h-[18px] w-[18px]" })}{" "}

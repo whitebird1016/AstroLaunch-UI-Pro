@@ -80,7 +80,7 @@ export function FigmaPresentation() {
                 </div>
               </div>
             </div>
-            <img src="https://www.creative-tim.com/astro/assets/img/components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
+            <img src="components.png" alt="iphone" className="lg:w-1/2 rounded-3xl hidden md:flex ml-auto lg:absolute -right-32 -top-24" />
           </div>
         </div>
       </div>

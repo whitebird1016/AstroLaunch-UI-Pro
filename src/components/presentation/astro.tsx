@@ -32,7 +32,7 @@ export function AstroSection() {
           </CardBody>
           <div className="relative grid h-96 place-items-center md:h-auto md:w-5/12">
             <img
-              src="https://www.creative-tim.com/astro/assets/img/astro.png"
+              src="astro.png"
               alt="astro"
               className="h-full w-full object-cover md:absolute"
             />

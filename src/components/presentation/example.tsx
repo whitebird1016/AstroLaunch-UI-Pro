@@ -29,7 +29,7 @@ export function CodePresentation() {
               Don’t spend hours reinventing the wheel! Our UI tool comes packed with everything you need for you Online Store.
             </Typography>
           </div>
-            <img src="https://www.creative-tim.com/astro/assets/img/checkout.jpg" alt="iphone" className="w-full rounded-3xl mx-auto" />
+            <img src="checkout.jpg" alt="iphone" className="w-full rounded-3xl mx-auto" />
         </div>
       </div>
     </ThemeProvider>
