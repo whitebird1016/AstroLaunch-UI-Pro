@@ -24,9 +24,11 @@ function BlogPostCard({
   return (
     <ThemeProvider>
       <Card color="transparent" shadow={false}>
-        <CardHeader floated={false} className="mx-0 mt-0 mb-8 h-56">
-          <img src={img} alt={title} className="h-full w-full object-cover" />
-        </CardHeader>
+        <a href={url}>
+          <CardHeader floated={false} className="mx-0 mt-0 mb-8 h-56">
+            <img src={img} alt={title} className="h-full w-full object-cover" />
+          </CardHeader>
+        </a>
         <CardBody className="p-0">
           <a
             href={url}

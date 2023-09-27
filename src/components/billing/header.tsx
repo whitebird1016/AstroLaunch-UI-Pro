@@ -127,7 +127,7 @@ export function PricingSectionOne() {
     <ThemeProvider>
       <Navbar />
       <section>
-        <div className="min-h-[50vh] px-8 py-24 flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('../bg-billing.jpg')`}}>
+        <div className="min-h-[50vh] px-8 py-24 flex align-center flex-col justify-center text-center bg-cover" style={{backgroundImage: `url('bg-billing.jpg')`}}>
           <div className="container mx-auto text-center">
             <Typography
               color="white"

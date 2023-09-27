@@ -5,9 +5,6 @@ import {
 } from "@material-tailwind/react";
 import ThemeProvider from "../theme-provider";
 import Navbar from "../navbar";
-import {
-  ArrowSmallRightIcon,
-} from "@heroicons/react/24/outline";
 
 export function HeroPresentation() {
  

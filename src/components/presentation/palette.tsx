@@ -8,10 +8,10 @@ export function PalettePresentation() {
  
   return (
     <ThemeProvider>
-      <div className="h-full w-screen place-items-center bg-white px-8 py-8 mt-12 lg:mt-72 mb-24">
+      <div className="h-full w-screen place-items-center bg-white p-8 my-12">
         <div className="container mx-auto grid items-center relative lg:grid-cols-2">
           <div className="hidden lg:flex">
-            <img src="https://www.creative-tim.com/astro/assets/img/palette.png" alt="iphone" className="max-w-xl rounded-3xl mx-auto" />
+            <img src="palette.png" alt="iphone" className="max-w-xl rounded-3xl mx-auto" />
           </div>
           
           <div className="text-center lg:text-left">

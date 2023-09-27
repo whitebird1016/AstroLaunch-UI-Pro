@@ -12,7 +12,7 @@ export function CodePresentation() {
  
   return (
     <ThemeProvider>
-      <div className="h-full w-screen place-items-center bg-white px-8 py-8">
+      <div className="h-full w-screen place-items-center bg-white p-8">
         <div className="container mx-auto grid items-center relative lg:grid-cols-2">
           <div className="text-center lg:text-left">
             <Typography

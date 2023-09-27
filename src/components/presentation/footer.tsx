@@ -66,8 +66,8 @@ const HELP = [
 
 const RESOURCES = [
   {
-    name: "Documentation",
-    link: "https://www.creative-tim.com/learning-lab/astro/overview/astro-launch-ui?ref=astrolaunch-ui",
+    name: "Material Tailwind",
+    link: "https://www.material-tailwind.com/?ref=astrolaunch-ui",
   },
   {
     name: "Custom Development",

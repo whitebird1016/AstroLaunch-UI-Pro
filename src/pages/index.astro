@@ -4,13 +4,12 @@ import HeaderPresentation from "../components/presentation/header"
 import FeaturePresentation from "../components/presentation/feature"
 import LogosPresentation from "../components/presentation/logos"
 import DevPresentation from "../components/presentation/developer"
-import PalettePresentationFree from "../components/presentation/palette"
 import CodePresentation from "../components/presentation/code"
 import ExamplePresentation from "../components/presentation/example"
 import FigmaPresentation from "../components/presentation/figma"
 import AstroPresentation from "../components/presentation/astro"
 import PagesPresentation from "../components/presentation/pages"
-import GithubPresentation from "../components/presentation/github"
+import PalettePresentation from "../components/presentation/palette"
 import PricingPresentation from "../components/presentation/pricing"
 import FooterPresentation from "../components/presentation/footer"
 
@@ -22,14 +21,13 @@ import FooterPresentation from "../components/presentation/footer"
     <FeaturePresentation client:only="react" />
     <LogosPresentation client:only="react" />
     <DevPresentation client:only="react" />
-    <!-- <PalettePresentationFree client:only="react" /> -->
+    <PalettePresentation client:only="react" />
     <CodePresentation client:only="react" />
-    <FigmaPresentation client:only="react" />
     <ExamplePresentation client:only="react" />
-    <PagesPresentation client:only="react" />
-    <!-- <GithubPresentation client:only="react" /> -->
-    <PricingPresentation client:only="react" />
+    <FigmaPresentation client:only="react" />
     <AstroPresentation client:only="react" />
+    <PagesPresentation client:only="react" />
+    <PricingPresentation client:only="react" />
     <FooterPresentation client:only="react" />
   </main>
 </Layout>
