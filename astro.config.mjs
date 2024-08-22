@@ -13,5 +13,7 @@ export default defineConfig({
     domains: ["astro.build"],
   },
   output: "server",
-  adapter: vercelServerless(),
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
 });
